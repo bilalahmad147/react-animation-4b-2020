@@ -1,0 +1,9 @@
+.navbarDiv {
+  padding: 20px;
+}
+.navLink {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0px 20px 0px 20px !important;
+  color: white !important;
+}
