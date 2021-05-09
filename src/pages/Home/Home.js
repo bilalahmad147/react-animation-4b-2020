@@ -11,8 +11,7 @@ function Home() {
       ...animationOptions,
       duration: animationOptions.duration * 7,
       iterations: Infinity,
-      easing: "ease-in",
-      easing: "ease-out",
+      easing: "ease-in-out"
     },
   });
 
