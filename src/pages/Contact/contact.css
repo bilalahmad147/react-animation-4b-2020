@@ -1,0 +1,9 @@
+.contactMainDiv{
+    width: 50%;
+    margin: 0 auto;
+}
+.contactMainDiv h1{
+    text-align: center;
+    margin: 10px 5px;
+    padding: 10px;
+}
