@@ -1,0 +1,24 @@
+.navbarDiv {
+  padding: 10px;
+}
+.navLink {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0px 20px 0px 20px !important;
+  color: white !important;
+}
+.homeCol1 {
+  text-align: center;
+  padding: 50px 10px 50px 10px;
+  margin: 50px auto;
+  width: 100%;
+}
+.homeCol2 {
+  text-align: center;
+  padding: 50px 10px 50px 10px;
+  margin: 30px auto;
+  width: 100%;
+}
+.mainHeading {
+  color: rgb(75, 68, 175);
+}

@@ -39,7 +39,7 @@ function Home() {
         <Container>
           <Row>
             <Col className="homeCol1">
-              <h3>Grow you business with us.</h3>
+              <h3 className='mainHeading'>Grow you business with us.</h3>
               <h5>We have team of talented developers.</h5>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
