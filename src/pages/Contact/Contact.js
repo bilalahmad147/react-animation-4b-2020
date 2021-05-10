@@ -10,7 +10,7 @@ function Contact() {
     animationOptions: {
       ...animationOptions,
       duration: animationOptions.duration * 3,
-      delay: 1000,
+      delay: 500,
       easing: "ease-in-out"
     },
   });
