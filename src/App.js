@@ -4,15 +4,20 @@ import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
 import NavbarHeader from "./components/NavBar/Navbar";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <NavbarHeader />
-      <Home />
-      <About />
-      <Contact />
-    </div>
+    <Router>
+      <div>
+        <NavbarHeader />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
