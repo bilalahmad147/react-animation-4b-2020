@@ -11,12 +11,16 @@ function Home() {
       ...animationOptions,
       duration: animationOptions.duration * 7,
       iterations: Infinity,
-      easing: "ease-in-out"
+      easing: "ease-in-out",
     },
   });
 
   return (
-    <div><br /><br /><br /><br /><br />
+    <div>
+      <br />
+      <br />
+      <br />
+      <h1 className='homeHeading'>Home Page</h1>
       <Container>
         <Row>
           <Col className="homeCol1">
@@ -37,7 +41,7 @@ function Home() {
           </Col>
           <Col className="homeCol2" ref={ref}>
             <img
-              src="https://png.pngtree.com/png-vector/20200312/ourmid/pngtree-modern-flat-design-concept-of-programmers-at-work-concept-software-development-png-image_2157879.jpg"
+              src="https://xtrapunch.com/wp-content/uploads/2019/03/xtrapunch-development.svg"
               alt="HomeMainIMage"
             />
           </Col>

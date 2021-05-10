@@ -16,7 +16,7 @@ function About() {
   });
 
   return (
-    <div><br /><br />
+    <div><br /><br /><br />
       <h1 className='aboutHeading'>About</h1>
       <Container>
         <Row>
@@ -38,7 +38,7 @@ function About() {
           </Col>
           <Col className="homeCol2" ref={ref}>
             <img
-              src="https://png.pngtree.com/png-vector/20200312/ourmid/pngtree-modern-flat-design-concept-of-programmers-at-work-concept-software-development-png-image_2157879.jpg"
+              src="https://patientfy.com/assets/images/services/web-design.svg"
               alt="HomeMainIMage"
             />
           </Col>
