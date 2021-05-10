@@ -16,7 +16,8 @@ function About() {
   });
 
   return (
-    <div>
+    <div><br /><br />
+      <h1 className='aboutHeading'>About</h1>
       <Container>
         <Row>
           <Col className="homeCol1">

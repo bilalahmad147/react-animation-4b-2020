@@ -1,15 +1,18 @@
 .homeCol1 {
   text-align: center;
-  padding: 50px 10px 50px 10px;
-  margin: 50px auto;
+  padding: 20px !important;
+  margin: 20px auto !important;
   width: 100%;
 }
 .homeCol2 {
   text-align: center;
-  padding: 50px 10px 50px 10px;
-  margin: 30px auto;
+  padding: 20px !important;
+  margin: 10px auto !important;
   width: 100%;
 }
 .mainHeading {
   color: rgb(75, 68, 175);
+}
+.aboutHeading {
+  text-align: center;
 }
